@@ -74,7 +74,7 @@ class Main extends React.Component {
             CRWN clothing is a full-stack e-commerce application that enables users to shop online. App also features ability to create a new user account or sign up using an existing gmail account - all authentication and database is powered by Firebase. Users are also able to 'purchase' products through the help of Stripe's API. This project is still in progress - more features to come.  
           </p>
 
-          <p>Technologies used: HTML, SCSS, Javascript, React, Redux, Firebase, Stripe, Heroku, Git </p>
+          <p>Technologies used: HTML, SCSS, Javascript, React, Redux, Styled-Components, Firebase, Stripe, Heroku, Git </p>
 
           <p>
             <span><a href="https://crwn-jreyes-live.herokuapp.com" target="_blank">Demo</a></span> | <a href="https://github.com/rookie-cookie/react-ecommerce-app" target="_blank">Github</a>
@@ -127,17 +127,23 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            {/* <img src={pic03} alt="" /> */}
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+           Hi there! Thank you for stopping by. I'm a creative frontend developer with experience building full-stack applications with Javascript, React, Node, Express and various API integrations. I'm passionate about creating visually appealing products that have a positive impact on the end user. Always eager to learn new things and looking for ways to challenge myself creatively. 
           </p>
+
+          <p>
+            Prior to working in the software development industry, I've worked in the IT industry where I've been able to develop strong analytical and troubleshooting skills. I have a passion for problem-solving and enjoy being in dynamic teams. My goal is to combine my analytical thinking with my dedication for creating beautiful, accessible web applications.
+          </p>
+
+          <p>CORE TECHNOLOGIES: <br/> HTML | CSS | Sass | Javascript | jQuery | React | Redux | NodeJS | ExpressJS | Git | Bootstrap | Gatsby | Heroku | Figma | VScode </p>
+          <p> </p>
+
+          <p>FAMILIAR WITH: <br/> Django | Linux | Docker | Kubernetes | AWS | Google Analytics </p>
+
+          <p>OTHER SKILLS: <br/>Detail Oriented | Problem Solving | Teamwork | Communication | Web Design</p>
+
           {close}
         </article>
 

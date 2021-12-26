@@ -3,7 +3,7 @@ import React from 'react'
 import logo from '../images/profile-pic-circle.png'
 
 const logostyle = {
-  height: '75px',
+  height: '90%',
   width: 'auto',
   position: 'relative',
   top: '6%'
@@ -17,7 +17,7 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Frontend Developer</h1>
+        <h1>Frontend UI/UX Developer</h1>
         <p>
           Hello, I'm Jona. I like to build and design stuff on the web. I have a <br/>strong passion in problem solving, design thinking and growth mindset.
         </p>

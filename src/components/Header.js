@@ -19,19 +19,30 @@ const Header = props => (
       <div className="inner">
         <h1>Frontend Developer</h1>
         <p>
-          Hello, I'm Jona. I like to build and design stuff on the web. I have a <br/>strong passion in problem solving, design thinking and growth mindset.  
+          Hello, I'm Jona. I like to build and design stuff on the web. I have a <br/>strong passion in problem solving, design thinking and growth mindset.
         </p>
+        <p> <a href='https://www.linkedin.com/in/jonareyes/' target='_blank'>LinkedIn</a> | <a href='https://github.com/rookie-cookie' target='_blank'>Github</a></p>
       </div>
     </div>
     <nav>
       <ul>
-        <li>
+        {/* <li>
           <button
             onClick={() => {
               props.onOpenArticle('intro')
             }}
           >
             Intro
+          </button>
+        </li> */}
+        
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('about')
+            }}
+          >
+            About
           </button>
         </li>
         <li>
@@ -43,15 +54,6 @@ const Header = props => (
             Projects
           </button>
         </li>
-        {/* <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('about')
-            }}
-          >
-            About
-          </button>
-        </li> */}
         <li>
           <button
             onClick={() => {

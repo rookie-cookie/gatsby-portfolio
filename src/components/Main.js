@@ -64,21 +64,17 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projects</h2>
+          <h2 className="major">Side <br/>Projects</h2>
           <span className="image main">
             <img src={pic04} alt="project-screenshot" />
           </span>
           <h3>Ecommerce App</h3>
     
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            CRWN clothing is a full-stack e-commerce application that enables users to shop online. App also features ability to create a new user account or sign up using an existing gmail account - all authentication and database is powered by Firebase. Users are also able to 'purchase' products through the help of Stripe's API. This project is still in progress - more features to come.  
           </p>
+
+          <p>Technologies used: HTML, SCSS, Javascript, React, Redux, Firebase, Stripe, Heroku, Git </p>
 
           <p>
             <span><a href="https://crwn-jreyes-live.herokuapp.com" target="_blank">Demo</a></span> | <a href="https://github.com/rookie-cookie/react-ecommerce-app" target="_blank">Github</a>
@@ -90,14 +86,10 @@ class Main extends React.Component {
           <h3>Weather App</h3>
     
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Simple weather application made with React and makes use of Open Weather Api. Application is made with using functional react components and react hooks. Features an on click temperature conversion and weather icons that varies depending on the current temperature. 
           </p>
+
+          <p>Technologies used: HTML, CSS, Javascript, React, React Hooks, Open Weather API, GH-Pages, Git</p>
 
           <p>
             <span><a href="https://rookie-cookie.github.io/react-weather-app/" target="_blank">Demo</a></span> | <a href="https://github.com/rookie-cookie/react-weather-app" target="_blank">Github</a>
@@ -106,17 +98,13 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic05} alt="project-screenshot" />
           </span>
-          <h3>Mediawiki App</h3>
+          <h3>Wikipedia Viewer</h3>
     
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Users can search wikipedia entries using the search box and see all resulting entries. User can also generate a random search entry. 
           </p>
+
+          <p>Technologies used: Javascript, jQuery, Mediawiki API, Codepen</p>
 
           <p>
             <span><a href="https://codepen.io/rookie-cookie/pen/xqppBq" target="_blank">Demo</a></span> 
@@ -125,6 +113,7 @@ class Main extends React.Component {
           
 
           <h3>More to come...</h3>
+          <h5><a href="https://github.com/rookie-cookie" target="_blank">Github</a></h5>
 
           {close}
         </article>

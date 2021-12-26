@@ -5,8 +5,29 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
+import emailjs from "emailjs-com"
 
 class Main extends React.Component {
+
+  sendEmail(event){
+    event.preventDefault()
+    emailjs
+      .sendForm(
+        "service_2zm1vhx",
+        "template_3icqt39",
+        event.target,
+        "user_qaowQ52rzVjFAksdDmgF9"
+      )
+      .then(
+        result => {
+          alert('Thank you for your message. Message has been sent!')
+        },
+        error => {
+          console.log(error.text)
+        }
+      )
+  }
+
   render() {
     let close = (
       <div
@@ -155,7 +176,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="mailto:jonamreyes@gmail.com">
+          <form method="post" action="#" onSubmit={(e) => this.sendEmail(e)}>
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />

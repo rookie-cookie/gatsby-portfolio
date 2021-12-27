@@ -26,16 +26,6 @@ const Header = props => (
     </div>
     <nav>
       <ul>
-        {/* <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('intro')
-            }}
-          >
-            Intro
-          </button>
-        </li> */}
-        
         <li>
           <button
             onClick={() => {
@@ -49,6 +39,17 @@ const Header = props => (
           <button
             onClick={() => {
               props.onOpenArticle('work')
+            }}
+          >
+            Work
+          </button>
+        </li>
+        
+        
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('projects')
             }}
           >
             Projects

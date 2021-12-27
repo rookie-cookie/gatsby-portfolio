@@ -5,6 +5,8 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
+import work01 from '../images/work01.jpg'
+import work02 from '../images/work02.jpg'
 import emailjs from "emailjs-com"
 
 class Main extends React.Component {
@@ -45,42 +47,44 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Work</h2>
+
+          <h3>Rainwalk Technologies</h3>
+          <p>October 2020 - Present</p>
+          <p>Currently, I work at Rainwalk as a Frontend Developer wherein I'm responsible for executing creative designs and concepts and determining solutions/alternatives when necessary. I work closely with product team members in developing mobile friendly website and applications for Rainwalk using modern frontend technologies.</p>
+
+          <p>Technologies we use: <br/> HTML, CSS, Javascript, Django, AWS Codecommit, AWS S3, Node, Express, Vue and Figma </p>
+
+          <h3>API Endpoint Tester</h3>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={work02} alt="work-screenshot" />
           </span>
+          
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Built an internal CRUD application to test Rainwalk's API using Javascript, Node and Express. Project still in progress. 
           </p>
+          
+          <h3>Website redesign</h3>
+          <span className="image main">
+            <img src={work01} alt="work-screenshot" />
+          </span>
+          
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Worked closely with product team members and UX designers in developing mobile friendly website for Rainwalk using HTML, CSS, Vanilla Javascript, jQuery, Bootstrap and Media Query. Also helped with creating creative illustrations for the website.
           </p>
+         
           {close}
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="projects"
+          className={`${this.props.article === 'projects' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}

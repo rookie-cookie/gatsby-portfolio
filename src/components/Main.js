@@ -55,7 +55,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
 
-          <h3>Rainwalk Technologies</h3>
+          <h3>Rainwalk Technology</h3>
           <p>October 2020 - Present</p>
           <p>Currently, I work at Rainwalk as a Frontend Developer wherein I'm responsible for executing creative designs and concepts and determining solutions/alternatives when necessary. I work closely with product team members in developing mobile friendly website and applications for Rainwalk using modern frontend technologies.</p>
 

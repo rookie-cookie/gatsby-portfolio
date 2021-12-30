@@ -67,7 +67,7 @@ class Main extends React.Component {
           </span>
           
           <p>
-            Built an internal CRUD application to test Rainwalk's API using Javascript, Node and Express. Project still in progress. 
+            Built an internal CRUD application to test Rainwalk's API using Javascript, Node and Express.
           </p>
           
           <h3>Website redesign</h3>

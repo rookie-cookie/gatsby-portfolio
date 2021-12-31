@@ -2,6 +2,6 @@
 
 Portfolio build with Gatsby and deplyoed in Heroku 
 
-Link: https://jonareyes-portfolio.herokuapp.com/
+Link: https://jonareyes.herokuapp.com/
 
 

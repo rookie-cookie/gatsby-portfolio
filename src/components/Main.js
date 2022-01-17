@@ -155,19 +155,19 @@ class Main extends React.Component {
             {/* <img src={pic03} alt="" /> */}
           </span>
           <p>
-           Hi there! Thank you for stopping by. I'm a creative frontend developer with experience building full-stack applications with Javascript, React, Node, Express and various API integrations. I'm passionate about creating visually appealing products that have a positive impact on the end user. Always eager to learn new things and looking for ways to challenge myself creatively. 
+           Hi there! Thank you for stopping by. I'm a creative frontend developer with experience building full-stack applications using Javascript, React, Node, Express and various API integrations. I'm passionate about creating visually appealing products that have a positive impact to the end user. Always eager to learn new things and looking for ways to challenge myself creatively. 
           </p>
 
           <p>
             Prior to working in the software development industry, I've worked in the IT industry where I've been able to develop strong analytical and troubleshooting skills. I have a passion for problem-solving and enjoy being in dynamic teams. My goal is to combine my analytical thinking with my dedication for creating beautiful, accessible web applications.
           </p>
 
-          <p>CORE TECHNOLOGIES: <br/> HTML | CSS | Sass | Javascript | jQuery | React | Redux | NodeJS | ExpressJS | Git | Bootstrap | Gatsby | Heroku | Figma | VScode </p>
+          <p>CORE TECHNOLOGIES: <br/> HTML | CSS | Sass | Javascript | jQuery | React | Redux | Node | Express | MongoDB | Git | Bootstrap | Gatsby | Heroku | Figma | VScode </p>
           <p> </p>
 
           <p>FAMILIAR WITH: <br/> Django | Linux | Docker | Kubernetes | AWS | Google Analytics </p>
 
-          <p>OTHER SKILLS: <br/>Detail Oriented | Problem Solving | Teamwork | Communication | Web Design</p>
+          <p>OTHER SKILLS: <br/>Detail Oriented | Problem Solving | Teamwork | Strong Communication | Design</p>
 
           {close}
         </article>

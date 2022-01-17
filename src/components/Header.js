@@ -21,7 +21,11 @@ const Header = props => (
         <p>
           Hello, I'm Jona. I like to build and design stuff on the web. I have a <br/>strong passion in problem solving, design thinking and growth mindset.
         </p>
-        <p> <a href='https://www.linkedin.com/in/jonareyes/' target='_blank'>LinkedIn</a> | <a href='https://github.com/rookie-cookie' target='_blank'>Github</a></p>
+        <p> 
+          <a href='https://www.linkedin.com/in/jonareyes/' target='_blank'>LinkedIn</a> 
+        | <a href='https://github.com/rookie-cookie' target='_blank'>Github</a> 
+        {/* | <a href='/page-2' target='_blank'>Resume</a>  */}
+        </p>
       </div>
     </div>
     <nav>

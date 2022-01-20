@@ -24,7 +24,7 @@ const Header = props => (
         <p> 
           <a href='https://www.linkedin.com/in/jonareyes/' target='_blank'>LinkedIn</a> 
         | <a href='https://github.com/rookie-cookie' target='_blank'>Github</a> 
-        {/* | <a href='/page-2' target='_blank'>Resume</a>  */}
+        | <a href='https://drive.google.com/file/d/1RPY-DKt6b2fXtvlqYIs0Ih8AeI2CENwU/view' target='_blank'>Resume</a> 
         </p>
       </div>
     </div>

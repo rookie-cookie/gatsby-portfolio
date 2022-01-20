@@ -90,6 +90,24 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Side <br/>Projects</h2>
+
+          <span className="image main">
+            <img src={pic01} alt="project-screenshot" />
+          </span>
+          <h3>Vending Machine App</h3>
+
+          <p>
+            Simple vending machine mock application. Full stack application built on MERN stack.
+            Customers can buy their favorite virtual soda in which they can get json file with all the cool information about their drink. Admins can easily update their stock by accessing the admin page. New products can be easily added as well. Edit and Delete each product according to business needs.
+          </p>
+
+          <p>Technologies used: HTML, CSS, Material UI, Javascript, React, React Router, Functional Components, React Hooks, Node, Express, MongoDB, MongoAtlas</p>
+
+          <p>
+            <span><a href="https://github.com/rookie-cookie/vending-mern" target="_blank">Github</a></span> | <a href="https://vending-mern.herokuapp.com" target="_blank">Demo</a>
+          </p>
+
+
           <span className="image main">
             <img src={pic04} alt="project-screenshot" />
           </span>
